@@ -38,7 +38,6 @@ export const productReducer = (state, action) => {
         byRating: 0,
         searchQuery: "",
       };
-
     default:
       return state;
   }
